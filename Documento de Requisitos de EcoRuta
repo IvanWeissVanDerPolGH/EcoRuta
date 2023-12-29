@@ -1,0 +1,27 @@
+# Documento de Requisitos de EcoRuta
+
+## 1. Introducción
+- **Propósito del Documento**: Este documento tiene como objetivo definir con claridad las funcionalidades, requisitos técnicos y restricciones del proyecto EcoRuta, una aplicación móvil innovadora para la gestión de residuos y el reciclaje en Paraguay.
+- **Alcance del Producto**: EcoRuta es una plataforma digital que conecta proveedores de residuos con recolectores, ofreciendo educación en reciclaje, optimización de rutas de recolección y una interfaz intuitiva para usuarios de todas las edades.
+
+## 2. Investigación y Análisis de Usuarios
+- **Demografía del Usuario**: Usuarios de entre 18 y 60 años, residentes en zonas urbanas de Paraguay, con interés en prácticas de reciclaje y gestión de residuos.
+- **Necesidades del Usuario**: Facilidad de uso, información educativa sobre reciclaje, acceso rápido a servicios de recolección, y una plataforma confiable para la gestión de residuos.
+
+## 3. Definición de Funcionalidades
+- **Educación sobre Reciclaje**: Sección interactiva con recursos educativos, incluyendo tutoriales, videos, infografías y quizzes.
+- **Notificaciones y Geolocalización**: Sistema de notificaciones para informar sobre servicios de recolección disponibles y uso de geolocalización para identificar puntos de recolección cercanos.
+- **Sistema de Valoraciones**: Opción para que usuarios y recolectores valoren los servicios, promoviendo la confianza y la calidad.
+- **Conexión con Empresas y Recolectores**: Herramienta para conectar grandes productores de residuos con recolectores especializados.
+- **Interfaz de Usuario Intuitiva**: Diseño amigable y accesible, apto para todos los niveles de habilidad tecnológica.
+- **Monitoreo y Reportes**: Funcionalidad para rastrear y reportar el impacto individual y comunitario en términos de reciclaje.
+
+## 4. Requisitos Técnicos
+- **Compatibilidad de Dispositivos**: Aplicación compatible con sistemas operativos Android e iOS.
+- **Rendimiento**: Capacidad para manejar al menos 1000 usuarios concurrentes sin degradación significativa en el tiempo de respuesta.
+- **Seguridad**: Implementación de medidas de seguridad como encriptación de datos, autenticación segura y cumplimiento con las normativas de privacidad de datos locales.
+
+## 5. Restricciones y Suposiciones
+- **Presupuesto**: Presupuesto estimado de USD 100,000 para el desarrollo inicial y mantenimiento durante el primer año.
+- **Cronograma**: Desarrollo previsto para completarse en un plazo de 12 meses.
+- **Suposiciones**: Acceso continuo a las APIs de Google Maps y Firebase, y estabilidad en las regulaciones de manejo de datos.

@@ -1,0 +1,46 @@
+## Selección de Tecnología para EcoRuta
+
+### Objetivo
+- **Propósito**: Elegir herramientas y tecnologías óptimas para el desarrollo de la aplicación móvil EcoRuta.
+
+### Actividades Detalladas
+
+#### 1. Decisión sobre Framework de Desarrollo Móvil
+- **Uso de Flutter**:
+  - **Razones para Elegir Flutter**:
+    - **Cross-Platform**: Permite desarrollar tanto para iOS como para Android desde una única base de código.
+    - **Rendimiento Nativo**: Alto rendimiento con una experiencia cercana a las aplicaciones nativas.
+    - **Gran Comunidad y Soporte**: Amplia comunidad de desarrolladores y soporte continuo de Google.
+  - **Integración con Diseño**:
+    - Herramientas como Figma pueden ser utilizadas para diseñar la UI, y con plugins adecuados, se puede facilitar la conversión de diseños en código Flutter.
+
+#### 2. Selección de Tecnologías para Backend y Base de Datos
+- **Backend con Node.js**:
+  - **Ventajas**:
+    - Ampliamente utilizado, con una gran comunidad y soporte.
+    - Buen rendimiento para operaciones no bloqueantes y asincrónicas.
+  - **Integración con Flutter**: API REST o GraphQL para conectar con la aplicación Flutter.
+
+- **Base de Datos con MongoDB**:
+  - **Razones para Elegir MongoDB**:
+    - Escalabilidad y flexibilidad.
+    - Manejo eficiente de grandes volúmenes de datos.
+    - Compatibilidad con JSON, facilitando la integración con Node.js.
+
+#### 3. Evaluación de APIs para Geolocalización y Notificaciones
+- **Google Maps API para Geolocalización**:
+  - **Aplicación en EcoRuta**:
+    - Mostrar mapas de puntos de reciclaje.
+    - Planificar rutas de recolección.
+  - **Integración con Flutter**: Uso de paquetes como `google_maps_flutter` para implementar funciones de mapeo.
+
+- **Firebase Cloud Messaging para Notificaciones**:
+  - **Uso en EcoRuta**:
+    - Enviar notificaciones push sobre recolecciones y actualizaciones de la aplicación.
+  - **Integración con Flutter**: Utilización del paquete `firebase_messaging` para manejar notificaciones.
+
+### Consideraciones Adicionales
+- **Pruebas de Compatibilidad**: Asegurarse de que todas las tecnologías seleccionadas sean compatibles entre sí.
+- **Planificación de la Arquitectura**: Diseñar una arquitectura robusta que integre estas tecnologías de manera eficiente.
+- **Evaluación de Costos y Licencias**: Considerar los costos de utilización de estas tecnologías y las licencias asociadas.
+- **Capacitación y Recursos**: Evaluar la curva de aprendizaje y disponibilidad de recursos educativos para el equipo de desarrollo.

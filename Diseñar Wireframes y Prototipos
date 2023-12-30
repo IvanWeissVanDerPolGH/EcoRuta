@@ -1,0 +1,333 @@
+# Diseñar Wireframes y Prototipos para EcoRuta
+
+## 1. Diseñar Wireframes
+## Pantallas Clave para EcoRuta
+
+### 1. Pantalla de Inicio
+- **Descripción**: Primera pantalla al abrir la aplicación, ofreciendo una navegación clara a las principales características.
+- **Elementos Clave**: 
+  - Botones de acceso rápido a las secciones principales.
+  - Breve descripción del propósito de la app.
+  - Botón de inicio de sesión/registro.
+
+### 2. Educación sobre Reciclaje
+- **Descripción**: Sección dedicada a proporcionar información y recursos sobre reciclaje.
+- **Elementos Clave**:
+  - Tutoriales interactivos y videos educativos.
+  - Infografías y datos sobre reciclaje.
+  - Quizzes para evaluar el conocimiento.
+
+### 3. Sistema de Notificaciones
+- **Descripción**: Pantalla para gestionar y visualizar notificaciones.
+- **Elementos Clave**:
+  - Notificaciones de recolección programada.
+  - Alertas de eventos y novedades en reciclaje.
+  - Personalización de las preferencias de notificación.
+
+### 4. Sistema de Valoraciones
+- **Descripción**: Permite a los usuarios valorar el servicio de recolección.
+- **Elementos Clave**:
+  - Formulario de valoración post-servicio.
+  - Historial de valoraciones dadas y recibidas.
+  - Sistema de puntuación y comentarios.
+
+### 5. Perfiles de Usuario
+- **Descripción**: Gestión del perfil personal del usuario.
+- **Elementos Clave**:
+  - Información personal y de contacto.
+  - Historial de actividades de reciclaje.
+  - Configuración de cuenta y preferencias.
+
+### 6. Mapa de Recolección y Puntos de Reciclaje
+- **Descripción**: Mapa interactivo que muestra puntos de recolección y reciclaje.
+- **Elementos Clave**:
+  - Ubicaciones de puntos de recolección cercanos.
+  - Información detallada de cada punto (horarios, tipos de residuos aceptados).
+  - Opción para solicitar recolección desde el mapa.
+
+### 7. Programación de Recolecciones
+- **Descripción**: Pantalla para programar y gestionar recolecciones de residuos.
+- **Elementos Clave**:
+  - Calendario interactivo para programar recolecciones.
+  - Formulario para especificar tipo de residuo y cantidad.
+  - Confirmación y seguimiento de recolecciones programadas.
+
+### 8. Reporte de Incidentes
+- **Descripción**: Permite a los usuarios reportar problemas o incidentes relacionados con la basura.
+- **Elementos Clave**:
+  - Formulario para reportar vertederos ilegales o acumulaciones de residuos.
+  - Opción para adjuntar fotos o videos.
+  - Seguimiento y respuesta a los reportes.
+
+### 9. Consejos y Recursos sobre Reciclaje
+- **Descripción**: Proporciona consejos prácticos y recursos para mejorar las prácticas de reciclaje.
+- **Elementos Clave**:
+  - Artículos y blogs sobre reciclaje.
+  - Consejos diarios y trucos.
+  - Enlaces a recursos externos y organizaciones.
+
+### 10. Configuraciones y Ayuda
+- **Descripción**: Pantalla para ajustes de la aplicación y acceso a soporte.
+- **Elementos Clave**:
+  - Configuración de notificaciones, idioma y otras preferencias.
+  - Acceso a soporte y preguntas frecuentes.
+  - Información sobre la aplicación y enlaces de contacto.
+
+## Flujo de Usuario para EcoRuta
+
+### 1. Inicio de Sesión/Registro
+- **Inicio de la Aplicación**: El usuario abre la aplicación y ve la pantalla de inicio.
+- **Opciones Disponibles**:
+  - **Iniciar Sesión**: Para usuarios existentes, con opción de recuperar contraseña.
+  - **Registrarse**: Para nuevos usuarios, con un formulario de registro sencillo.
+
+### 2. Pantalla Principal
+- **Acceso Post-Registro/Login**: Tras iniciar sesión o registrarse, el usuario accede a la pantalla principal.
+- **Navegación**:
+  - Menú principal con acceso a todas las funciones importantes.
+  - Acceso directo a las secciones de Educación sobre Reciclaje, Mapa de Recolección, y Perfil.
+
+### 3. Educación sobre Reciclaje
+- **Acceso desde la Pantalla Principal**: Selección de la sección de Educación.
+- **Interacción**:
+  - Visualización de tutoriales y videos.
+  - Participación en quizzes y lectura de infografías.
+  - Volver a la pantalla principal en cualquier momento.
+
+### 4. Programación de Recolecciones
+- **Acceso desde la Pantalla Principal**: Opción de programar una recolección.
+- **Proceso**:
+  - Selección de tipo de residuo y especificación de cantidad.
+  - Elección de fecha y hora para la recolección.
+  - Confirmación de la recolección programada y seguimiento.
+
+### 5. Sistema de Notificaciones
+- **Recepción Automática**: Notificaciones sobre recolecciones programadas y consejos de reciclaje.
+- **Acciones del Usuario**:
+  - Ver detalles de la notificación.
+  - Navegar a secciones relevantes desde la notificación (por ejemplo, Mapa de Recolección).
+
+### 6. Sistema de Valoraciones
+- **Post-Recolección**: Tras una recolección, se invita al usuario a valorar el servicio.
+- **Interacción**:
+  - Completar un formulario de valoración.
+  - Ver historial de valoraciones propias y de otros usuarios.
+
+### 7. Mapa de Puntos de Reciclaje
+- **Acceso desde la Pantalla Principal**: Selección de la opción del mapa.
+- **Funcionalidad**:
+  - Visualización de puntos de reciclaje cercanos.
+  - Obtención de detalles sobre cada punto (horarios, tipos de residuos aceptados).
+  - Navegación a la ubicación del punto de reciclaje.
+
+### 8. Reporte de Incidentes
+- **Acceso desde el Menú**: Selección de la opción de reporte.
+- **Proceso**:
+  - Rellenar formulario de reporte de incidentes.
+  - Adjuntar fotos o videos si es necesario.
+  - Enviar el reporte y recibir confirmación.
+
+### 9. Perfil de Usuario y Configuraciones
+- **Acceso desde la Pantalla Principal**: A través del menú de usuario.
+- **Opciones**:
+  - Editar información personal y preferencias.
+  - Ver historial de actividades de reciclaje.
+  - Ajustar configuraciones de la aplicación (notificaciones, idioma).
+
+### 10. Cierre de Sesión y Soporte
+- **Acceso desde el Menú de Usuario**: Opciones de cerrar sesión y ayuda.
+- **Funciones**:
+  - Cierre de sesión segura.
+  - Acceso a soporte y preguntas frecuentes.
+  - Contacto con el equipo de EcoRuta para asistencia.
+
+## 2. Diseño de Interfaz de Usuario (UI)
+## Paleta de Colores para EcoRuta
+
+### Principios de Selección
+- **Reflejo de la Naturaleza y Ecología**: Elegir colores que representen elementos naturales y promuevan la conciencia ambiental.
+- **Atractivo Visual y Accesibilidad**: Asegurar que la paleta sea visualmente atractiva y accesible para todos los usuarios, incluyendo aquellos con dificultades visuales.
+
+### Colores Primarios
+- **Verde Bosque**: Representa la naturaleza y el crecimiento. Ideal para botones principales y elementos destacados.
+  - *Hex*: #228B22
+- **Azul Cielo**: Evoca la limpieza del aire y el agua. Utilizado para encabezados y barras de navegación.
+  - *Hex*: #87CEEB
+
+### Colores Secundarios
+- **Marrón Tierra**: Simboliza la tierra y el reciclaje. Adecuado para textos y fondos.
+  - *Hex*: #8B4513
+- **Amarillo Sol**: Sugiere energía y optimismo. Para destacar elementos importantes y notificaciones.
+  - *Hex*: #FFD700
+
+### Colores de Acento
+- **Gris Piedra**: Proporciona un contraste neutro. Útil para fondos y componentes de interfaz de usuario.
+  - *Hex*: #708090
+- **Blanco Nube**: Ofrece claridad y espacio. Principalmente para fondos y textos.
+  - *Hex*: #FFFFFF
+
+### Uso en la Aplicación
+- **Combinaciones**: Usar estos colores en combinación para crear una experiencia de usuario cohesiva y temáticamente alineada.
+- **Contraste y Legibilidad**: Asegurar un contraste adecuado entre los colores de fondo y de texto para garantizar la legibilidad.
+- **Consistencia en la Interfaz**: Mantener la consistencia en el uso de estos colores a través de todas las pantallas y elementos de la aplicación.
+
+### Consideraciones Adicionales
+- **Adaptabilidad**: Evaluar cómo se ven estos colores en diferentes dispositivos y condiciones de iluminación.
+- **Feedback de Usuarios**: Realizar pruebas de usuario para obtener feedback sobre la paleta de colores y realizar ajustes según sea necesario.
+
+## Tipografía para EcoRuta
+
+### Principios de Selección
+- **Legibilidad**: Elegir fuentes fáciles de leer en diferentes tamaños y en dispositivos variados.
+- **Accesibilidad**: Asegurar que las tipografías sean amigables para usuarios con discapacidades visuales.
+- **Consistencia con la Marca**: Las fuentes deben alinearse con el tono y los valores de EcoRuta.
+
+### Tipografías Seleccionadas
+- **Fuente Principal para Textos**: 
+  - **Roboto**: Una fuente sans-serif moderna y clara, excelente para la legibilidad en dispositivos móviles.
+    - *Uso*: Textos del cuerpo, descripciones, y menús.
+    - *Disponibilidad*: Libre de derechos y ampliamente compatible.
+
+- **Fuente Secundaria para Encabezados**:
+  - **Open Sans**: Una fuente humanista, amigable y abierta, ideal para encabezados y títulos.
+    - *Uso*: Títulos, subtítulos, y encabezados.
+    - *Disponibilidad*: Gratuita y fácilmente accesible.
+
+### Guía de Estilo de Tipografía
+- **Tamaño de Texto**:
+  - Cuerpo del texto: 16px para facilidad de lectura.
+  - Encabezados: 24px a 32px para destacar y jerarquizar la información.
+
+- **Peso de la Fuente**:
+  - Textos del cuerpo: Regular (400) para una lectura cómoda.
+  - Encabezados: Semibold (600) para enfatizar y atraer la atención.
+
+- **Contraste de Color**:
+  - Asegurar un contraste alto entre el texto y el fondo para mejorar la legibilidad.
+
+- **Espaciado y Alineación**:
+  - Utilizar un espaciado adecuado entre líneas y párrafos.
+  - Alineación justificada o a la izquierda para una lectura fluida.
+
+### Consideraciones Adicionales
+- **Adaptabilidad a Diferentes Idiomas**: Verificar que las fuentes seleccionadas soporten los caracteres especiales de idiomas relevantes.
+- **Feedback de Usuarios**: Realizar pruebas con usuarios para recopilar opiniones sobre la legibilidad y el atractivo de las fuentes.
+- **Licencia y Derechos de Uso**: Confirmar que las tipografías elegidas se pueden utilizar sin restricciones de licencia en la aplicación.
+
+## Elementos de UI para EcoRuta
+
+### Principios de Diseño
+- **Intuitividad**: Asegurar que cada elemento de UI sea fácil de entender y usar.
+- **Consistencia**: Mantener un estilo uniforme en todos los elementos para una experiencia de usuario coherente.
+- **Alineación con la Marca**: Los elementos deben reflejar la paleta de colores y tipografía definidas para EcoRuta.
+
+### Botones
+- **Estilo de Botones**:
+  - Forma: Rectangular con esquinas redondeadas.
+  - Colores: Verde Bosque para botones primarios, Gris Piedra para secundarios.
+  - Texto: Letra en blanco para alta legibilidad, usando la fuente Open Sans.
+
+- **Interactividad**:
+  - Efecto al pasar el dedo (hover): Cambio sutil de color o sombreado.
+  - Retroalimentación al clic: Efecto de hundimiento o animación breve.
+
+### Iconos
+- **Estilo de Iconos**:
+  - Diseño simple y limpio, fácilmente reconocible.
+  - Colores: Utilizar la paleta de colores principal, principalmente los tonos de verde y azul.
+
+- **Uso de Iconos**:
+  - Para representar acciones comunes como inicio de sesión, configuración, búsqueda.
+  - En navegación, como en el menú inferior o lateral.
+
+### Barras de Navegación y Menús
+- **Diseño**:
+  - Barra superior: Con el logo de EcoRuta y elementos de navegación primarios.
+  - Menú lateral o inferior: Para acceso rápido a las secciones más importantes.
+
+- **Estilo**:
+  - Color de fondo: Azul Cielo o Gris Piedra, dependiendo de la jerarquía.
+  - Iconos y texto: Blanco o Verde Bosque para destacar sobre el fondo.
+
+### Campos de Entrada y Formularios
+- **Diseño**:
+  - Bordes definidos pero suaves.
+  - Fondo ligeramente diferenciado para resaltar el área de entrada.
+
+- **Interactividad**:
+  - Indicador claro cuando el campo está activo (por ejemplo, borde o sombra más destacada).
+  - Mensajes de error o validación claramente visibles y de fácil comprensión.
+
+### Mensajes y Alertas
+- **Estilo**:
+  - Ventanas emergentes o barras para mensajes importantes.
+  - Colores: Amarillo Sol para advertencias, Verde Bosque para confirmaciones.
+
+- **Tipografía y Iconografía**:
+  - Texto claro y directo, utilizando Roboto.
+  - Iconos para ilustrar el tipo de mensaje o alerta.
+
+### Consideraciones Adicionales
+- **Pruebas de Usabilidad**: Realizar pruebas para evaluar la eficacia y la receptividad de los elementos de UI.
+- **Adaptabilidad a Diferentes Tamaños de Pantalla**: Asegurar que los elementos de UI se vean bien y funcionen en una variedad de dispositivos.
+- **Accesibilidad**: Incluir consideraciones de accesibilidad, como suficiente contraste y tamaño adecuado de los elementos.
+
+
+## 3. Crear Prototipos Interactivos
+- **Herramientas**: Uso de Adobe XD o Figma para convertir wireframes en prototipos interactivos.
+- **Funcionalidades Clave**: Inclusión de funcionalidades importantes como geolocalización y notificaciones en el prototipo.
+- **Navegación Realista**: Asegurarse de que el prototipo permita una navegación realista por la aplicación.
+
+## 4. Pruebas de Usabilidad
+## Guion de Pruebas de Usabilidad para EcoRuta
+
+### Objetivo del Guion
+- **Propósito**: Evaluar la usabilidad y la intuición del flujo de usuario en los prototipos de EcoRuta.
+- **Participantes**: Usuarios representativos del público objetivo de la aplicación.
+
+### Preparación del Guion
+- **Entender Objetivos de Usabilidad**: Define qué aspectos de la experiencia del usuario deseas probar (por ejemplo, facilidad de navegación, claridad de información, etc.).
+- **Seleccionar Tareas Específicas**: Identifica acciones clave que los usuarios deberían ser capaces de realizar en la aplicación.
+
+### Tareas de Usabilidad
+1. **Registro y Acceso a la Aplicación**:
+   - Crear una cuenta nueva.
+   - Iniciar sesión en la aplicación.
+
+2. **Navegación a la Sección de Educación sobre Reciclaje**:
+   - Localizar y acceder a la sección de educación sobre reciclaje.
+   - Visualizar un recurso educativo.
+
+3. **Programación de una Recolección**:
+   - Navegar a la función de programación de recolecciones.
+   - Programar una recolección de residuos, seleccionando fecha, hora y tipo de residuo.
+
+4. **Uso del Sistema de Notificaciones**:
+   - Encontrar dónde se gestionan las notificaciones.
+   - Configurar preferencias de notificación.
+
+5. **Acceso y Uso del Mapa de Recolección**:
+   - Abrir el mapa de puntos de reciclaje.
+   - Localizar un punto de reciclaje cercano.
+
+6. **Valoración de un Servicio de Recolección**:
+   - Completar una valoración después de una recolección ficticia.
+
+7. **Reporte de un Incidente**:
+   - Usar la función de reporte de incidentes para informar sobre un vertedero ilegal.
+
+8. **Consulta de Perfil de Usuario y Configuraciones**:
+   - Acceder al perfil de usuario.
+   - Modificar una configuración en el perfil.
+
+### Observaciones y Recopilación de Feedback
+- **Observar Comportamiento del Usuario**: Mientras realizan las tareas, observa cómo interactúan con el prototipo y toma nota de cualquier dificultad o confusión.
+- **Preguntas de Seguimiento**: Después de cada tarea, haz preguntas para entender su experiencia y recoger sugerencias de mejora.
+
+### Consideraciones Adicionales
+- **Ambiente de Prueba**: Realizar las pruebas en un ambiente tranquilo y sin distracciones.
+- **Consentimiento y Confort**: Asegurarse de que los participantes estén cómodos y consentidos para la grabación o documentación de la prueba.
+- **Iteración del Prototipo**: Utilizar los resultados de las pruebas para realizar ajustes iterativos en el prototipo.
+- **Selección de Usuarios**: Elección de un grupo diverso de usuarios potenciales para las pruebas.
+- **Recopilación de Feedback**: Observación de la interacción de los usuarios con el prototipo y recopilación de comentarios.
+- **Ajustes**: Utilización del feedback para hacer ajustes y mejorar la experiencia del usuario.

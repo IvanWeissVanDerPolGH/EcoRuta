@@ -1,0 +1,15 @@
+{
+  "name": "eco_ruta_backend",
+  "version": "1.0.0",
+  "description": "backend of the eco rutas app",
+  "main": "index.js",
+  "scripts": {
+    "test": "testEcoRuta"
+  },
+  "author": "Ivan Weiss Van Der Pol",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^12.0.0"
+  }
+}

@@ -1,4 +1,5 @@
 import 'package:eco_ruta/routes/routes.dart';
+import 'package:eco_ruta/themes/app_theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,6 +13,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
+      theme: AppTheme.lightTheme,
       debugShowCheckedModeBanner: false,
       routerConfig: route.routes,
     );

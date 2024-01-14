@@ -7,7 +7,7 @@ const app = express();
 
 // Environment Variables
 const port = process.env.PORT || 3000;
-const serviceAccountPath = process.env.FIREBASE_SERVICE_ACCOUNT_PATH;
+const serviceAccountPath = './key.json';
 
 
 

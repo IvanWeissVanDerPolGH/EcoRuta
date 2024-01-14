@@ -1,0 +1,1 @@
+enum ConectionError { serverError }

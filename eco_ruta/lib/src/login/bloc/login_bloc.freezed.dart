@@ -472,6 +472,9 @@ abstract class _Login implements LoginEvent {
 mixin _$LoginState {
   String? get email => throw _privateConstructorUsedError;
   String? get password => throw _privateConstructorUsedError;
+  Option<Either<Exception, void>>? get failureOrSuccessOptions =>
+      throw _privateConstructorUsedError;
+  Option<bool>? get showOverlayLoader => throw _privateConstructorUsedError;
 
   @JsonKey(ignore: true)
   $LoginStateCopyWith<LoginState> get copyWith =>
@@ -484,7 +487,11 @@ abstract class $LoginStateCopyWith<$Res> {
           LoginState value, $Res Function(LoginState) then) =
       _$LoginStateCopyWithImpl<$Res, LoginState>;
   @useResult
-  $Res call({String? email, String? password});
+  $Res call(
+      {String? email,
+      String? password,
+      Option<Either<Exception, void>>? failureOrSuccessOptions,
+      Option<bool>? showOverlayLoader});
 }
 
 /// @nodoc
@@ -502,6 +509,8 @@ class _$LoginStateCopyWithImpl<$Res, $Val extends LoginState>
   $Res call({
     Object? email = freezed,
     Object? password = freezed,
+    Object? failureOrSuccessOptions = freezed,
+    Object? showOverlayLoader = freezed,
   }) {
     return _then(_value.copyWith(
       email: freezed == email
@@ -512,6 +521,14 @@ class _$LoginStateCopyWithImpl<$Res, $Val extends LoginState>
           ? _value.password
           : password // ignore: cast_nullable_to_non_nullable
               as String?,
+      failureOrSuccessOptions: freezed == failureOrSuccessOptions
+          ? _value.failureOrSuccessOptions
+          : failureOrSuccessOptions // ignore: cast_nullable_to_non_nullable
+              as Option<Either<Exception, void>>?,
+      showOverlayLoader: freezed == showOverlayLoader
+          ? _value.showOverlayLoader
+          : showOverlayLoader // ignore: cast_nullable_to_non_nullable
+              as Option<bool>?,
     ) as $Val);
   }
 }
@@ -524,7 +541,11 @@ abstract class _$$LoginBlocImplCopyWith<$Res>
       __$$LoginBlocImplCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({String? email, String? password});
+  $Res call(
+      {String? email,
+      String? password,
+      Option<Either<Exception, void>>? failureOrSuccessOptions,
+      Option<bool>? showOverlayLoader});
 }
 
 /// @nodoc
@@ -540,6 +561,8 @@ class __$$LoginBlocImplCopyWithImpl<$Res>
   $Res call({
     Object? email = freezed,
     Object? password = freezed,
+    Object? failureOrSuccessOptions = freezed,
+    Object? showOverlayLoader = freezed,
   }) {
     return _then(_$LoginBlocImpl(
       email: freezed == email
@@ -550,6 +573,14 @@ class __$$LoginBlocImplCopyWithImpl<$Res>
           ? _value.password
           : password // ignore: cast_nullable_to_non_nullable
               as String?,
+      failureOrSuccessOptions: freezed == failureOrSuccessOptions
+          ? _value.failureOrSuccessOptions
+          : failureOrSuccessOptions // ignore: cast_nullable_to_non_nullable
+              as Option<Either<Exception, void>>?,
+      showOverlayLoader: freezed == showOverlayLoader
+          ? _value.showOverlayLoader
+          : showOverlayLoader // ignore: cast_nullable_to_non_nullable
+              as Option<bool>?,
     ));
   }
 }
@@ -557,16 +588,24 @@ class __$$LoginBlocImplCopyWithImpl<$Res>
 /// @nodoc
 
 class _$LoginBlocImpl implements _LoginBloc {
-  const _$LoginBlocImpl({this.email, this.password});
+  const _$LoginBlocImpl(
+      {this.email,
+      this.password,
+      this.failureOrSuccessOptions,
+      this.showOverlayLoader});
 
   @override
   final String? email;
   @override
   final String? password;
+  @override
+  final Option<Either<Exception, void>>? failureOrSuccessOptions;
+  @override
+  final Option<bool>? showOverlayLoader;
 
   @override
   String toString() {
-    return 'LoginState(email: $email, password: $password)';
+    return 'LoginState(email: $email, password: $password, failureOrSuccessOptions: $failureOrSuccessOptions, showOverlayLoader: $showOverlayLoader)';
   }
 
   @override
@@ -576,11 +615,17 @@ class _$LoginBlocImpl implements _LoginBloc {
             other is _$LoginBlocImpl &&
             (identical(other.email, email) || other.email == email) &&
             (identical(other.password, password) ||
-                other.password == password));
+                other.password == password) &&
+            (identical(
+                    other.failureOrSuccessOptions, failureOrSuccessOptions) ||
+                other.failureOrSuccessOptions == failureOrSuccessOptions) &&
+            (identical(other.showOverlayLoader, showOverlayLoader) ||
+                other.showOverlayLoader == showOverlayLoader));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, email, password);
+  int get hashCode => Object.hash(
+      runtimeType, email, password, failureOrSuccessOptions, showOverlayLoader);
 
   @JsonKey(ignore: true)
   @override
@@ -590,13 +635,20 @@ class _$LoginBlocImpl implements _LoginBloc {
 }
 
 abstract class _LoginBloc implements LoginState {
-  const factory _LoginBloc({final String? email, final String? password}) =
-      _$LoginBlocImpl;
+  const factory _LoginBloc(
+      {final String? email,
+      final String? password,
+      final Option<Either<Exception, void>>? failureOrSuccessOptions,
+      final Option<bool>? showOverlayLoader}) = _$LoginBlocImpl;
 
   @override
   String? get email;
   @override
   String? get password;
+  @override
+  Option<Either<Exception, void>>? get failureOrSuccessOptions;
+  @override
+  Option<bool>? get showOverlayLoader;
   @override
   @JsonKey(ignore: true)
   _$$LoginBlocImplCopyWith<_$LoginBlocImpl> get copyWith =>

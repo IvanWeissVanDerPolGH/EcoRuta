@@ -321,7 +321,6 @@ class ErrorBottomSheet extends StatelessWidget {
           const SizedBox(height: 16.0),
           ElevatedButton(
             onPressed: () {
-              // Cerrar el BottomSheet al hacer clic en el botón
               context.pop();
             },
             child: const Text('Aceptar'),

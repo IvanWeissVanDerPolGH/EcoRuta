@@ -1,4 +1,6 @@
+import 'package:eco_ruta/src/login/bloc/login_bloc.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class LoginPage extends StatefulWidget {
@@ -36,21 +38,31 @@ class _LoginPageState extends State<LoginPage> {
 
   Widget _buildForm() {
     return SafeArea(
-      child: SizedBox(
-        width: MediaQuery.of(context).size.width,
-        height: MediaQuery.of(context).size.height,
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisAlignment: MainAxisAlignment.start,
-          children: [
-            Expanded(
-              child: _titulo(),
-            ),
-            _loginForm(),
-            SizedBox(
-              height: MediaQuery.of(context).size.height * 0.2,
-            )
-          ],
+      child: BlocProvider(
+        create: (context) => LoginBloc(),
+        child: BlocConsumer<LoginBloc, LoginState>(
+          listener: (context, state) {
+            // TODO: implement listener
+          },
+          builder: (context, state) {
+            return SizedBox(
+              width: MediaQuery.of(context).size.width,
+              height: MediaQuery.of(context).size.height,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Expanded(
+                    child: _titulo(),
+                  ),
+                  _loginForm(),
+                  SizedBox(
+                    height: MediaQuery.of(context).size.height * 0.2,
+                  )
+                ],
+              ),
+            );
+          },
         ),
       ),
     );

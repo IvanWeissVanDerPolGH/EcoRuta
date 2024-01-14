@@ -1,4 +1,6 @@
+import 'package:eco_ruta/firebase_options.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:firebase_core/firebase_core.dart';
 // ignore: depend_on_referenced_packages
 import 'package:bloc/bloc.dart';
 part 'splash_event.dart';
@@ -13,7 +15,9 @@ class SplashBloc extends Bloc<SplashEvent, SplashState> {
   Future<void> mapEventToState(SplashEvent event, Emitter<SplashState> emit) {
     return event.map(started: (e) async {
       emit(state.copyWith(isLogged: false));
-      Future.delayed(const Duration(seconds: 5));
+      await Firebase.initializeApp(
+        options: DefaultFirebaseOptions.currentPlatform,
+      );
       emit(state.copyWith(isLogged: true));
     });
   }

@@ -19,7 +19,7 @@ class SplashPage extends StatelessWidget {
         return Scaffold(
           body: Center(
             child: Text(
-              "Hola mundo",
+              "Splash",
               style: GoogleFonts.montserrat(),
             ),
           ),

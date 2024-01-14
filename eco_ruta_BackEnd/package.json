@@ -1,0 +1,18 @@
+{
+  "name": "eco_ruta_backend",
+  "version": "1.0.0",
+  "description": "backend of the eco rutas app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Ivan Weiss Van Der Pol",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^12.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

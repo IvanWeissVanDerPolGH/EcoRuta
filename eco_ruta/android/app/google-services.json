@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "144540244764",
+    "project_id": "ecoruta-c6a00",
+    "storage_bucket": "ecoruta-c6a00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144540244764:android:adab8b98fb2ab14cac78d9",
+        "android_client_info": {
+          "package_name": "com.example.eco_ruta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA43J5z2Hv8YwMPa9SIv8I01b0EGU8hqVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
